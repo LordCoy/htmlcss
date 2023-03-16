@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html,body{
+    display: grid;
+    place-items: center;
+    margin: 40px;
+    background: rgb(30,35,41);
+}
+
+.content{
+    display: block;
+    width: 300px;
+    height: 500px;
+    background: rgb(231,231,231);
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px rgba(167,167,167,0.452);
+}
+    
+
+input{
+    width: 200px;
+    background: rgb(231,231,231);
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px rgba(167,167,167,0.452);
+}
+
+textarea{
+    background: rgb(231,231,231);
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px rgba(167,167,167,0.452);
+}
+
+.content .tentang{
+    margin-top: 30px;
+    text-align: center;
+}
+.tentang h3.nama{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tentang h3.moto{
+    font-size: 15px;
+    color: #3b3b3b;
+    margin-top: 3px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    padding: 1px;
+    background: #3b3b3b;
+    place-items: center;
+    align-content: center;
+    width: 240px;
+    background: rgb(231,231,231);
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px rgba(167,167,167,0.452);
+}
+
+.content .garis-bawah{
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    padding: 1px;
+    background: #3b3b3b;
+    border-radius: 10px;
+}
